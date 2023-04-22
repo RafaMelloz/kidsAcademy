@@ -255,5 +255,9 @@
 
 
 </body>
+<<<<<<< HEAD:index.php
 
 </html>
+=======
+</html>
+>>>>>>> a1f76d9f7bfb5f4e2eb52c4092dab81ce2472005:index.html
