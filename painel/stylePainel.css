@@ -1,0 +1,522 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+html,body{
+    height: 100%;
+    background-color: #74746d;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+.box-login{
+    max-width: 600px;
+    width: 95%;
+    padding: 40px 2%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: -1px 6px 20px 0px;
+}
+
+.box-login h2{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+}
+
+.box-login input[type=text]{
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #ca2121;
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+    padding-left:10px ;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.box-login input[type=password] {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #ca2121;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.box-login input[type=submit]{
+    border-radius: 40px;
+    width: 50%;
+    height: 40px;
+    margin: 0 25%;
+    color: white;
+    background-color: #ca2121;
+    border: none;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+
+}
+.box-login input[type=submit]:hover{
+    color: #8b1a31;
+    background-color: white;
+    border:3px solid #8b1a31 ;
+    transition: 0.7s;
+}
+
+.erro{
+    width: 100%;
+    padding: 8px 2%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+}
+
+
+/***************SEGUNDA PAGINA***************/
+
+.center{
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+
+header{
+    position: relative;
+    left: 300px;
+    width: calc(100% - 300px);
+    padding: 10px 0;
+    background-color:#ca2121 ;
+}
+
+.loggout{
+    float: right;
+}
+
+.loggout a {
+    color: white;
+    font-size: 23px;
+}
+
+.menu-btn{
+    float: left;
+    color: white;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+
+.menu-wraper{
+    width: 300px;
+    
+}
+
+.menu {
+    overflow-x: hidden;
+    overflow-y: auto;
+    float: left;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #ac2525;
+    padding: 10px 0;
+}
+
+
+
+
+
+.box-usuario{
+    text-align: center;
+}
+
+.avatar-usuario{
+    text-align: left;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #ffffd6;
+    display: inline-block;
+}
+
+.avatar-usuario i {
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+    font-size:50px;
+    color: #ffffd6;
+    position: relative;
+}
+
+
+
+.imagem-usuario{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    border: 3px solid #5e0303;
+}
+
+.imagem-usuario img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+.nome-usuario{
+    text-align: center;
+}
+
+.nome-usuario{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+/*Conteudo do Painel*/
+
+.w100{
+    width: 100%;
+}
+
+.w50 {
+    width: 48%;
+}
+.left {
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
+
+.box-content{
+    padding: 30px;
+    margin-bottom: 25px;
+    background-color:white;
+    border-radius: 20px;
+
+}
+
+.content {
+    width: calc(100% - 300px);
+    position: relative;
+    left: 300px;
+    padding: 2%;
+    border-radius: 40px;
+}
+
+
+
+.items-menu {
+    margin-top: 30px;
+}
+
+.items-menu h2 {
+    text-align: left;
+    font-weight: normal;
+    font-size: 17px;
+    background:#5e0303;
+    color: white;
+    padding: 8px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.items-menu a {
+    display: block;
+    padding: 8px;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #5e0303;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*Box Metricas*/
+
+.box-content i span{
+font-family: 'Permanent Marker', cursive;
+}
+
+.box-metricas {
+    margin-top: 16px;
+    padding: 0 15px;
+}
+
+.box-metrica-single {
+    float: left;
+    position: relative;
+    width: 33.3%;
+    background: #F4B03E;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.box-metricas .box-metrica-single:nth-of-type(2) {
+    background: #E05C4E;
+}
+
+.box-metricas .box-metrica-single:nth-of-type(3) {
+    background: #0091ea;
+}
+
+.box-metrica-wraper {
+    padding: 10px 20px;
+    text-align: left;
+    color: white;
+}
+
+.box-metrica-wraper h2 {
+    font-size: 28px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.box-metrica-wraper p {
+    padding: 10px 0;
+    font-size: 26px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.table-responsive{
+    margin: 20px 0;
+    max-width: 1280px;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+.table-responsive .row:nth-of-type(1){
+    font-weight: bold;
+    border-top: none;
+    background-color: #dd7070;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.table-responsive .row:nth-of-type(2) {
+    border-top: none;
+
+}
+
+.table-responsive .row{
+    padding: 4px;
+    border-top: 1px solid #ca2525;
+}
+
+.col{
+    float: left;
+    width: 50%;
+}
+
+
+
+    .box-alert.sucesso{
+        background-color: rgb(18, 209, 18);
+        width: 20%;
+        max-width: 40%;
+        border-radius: 30px;
+        height: 35px;
+        padding: 5px;
+        text-align: center;
+        min-width: 210px;
+    }
+
+    .box-alert.sucesso spam{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    }
+
+    .box-alert.sucesso i{
+    color: white;
+    }
+
+     .box-alert.erro{
+        background-color: rgb(209, 18, 18);
+        width: 20%;
+        max-width: 40%;
+        border-radius: 30px;
+        height: 35px;
+        padding: 5px;
+        text-align: center;
+        min-width: 210px;
+    }
+
+    .box-alert.erro spam{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    }
+
+    .box-alert.erro i{
+    color: white;
+    }
+
+
+
+
+
+/*FORM ATUALIZAR USUARIO*/
+
+.box-content form{
+    margin: 30px 0;
+}
+
+.box-content form label{
+    font-family:'Permanent Marker', cursive; 
+    font-size: 20px;
+    display: block;
+    font-weight: 700;
+}
+.box-content .form-group{
+    margin: 15PX 0;
+}
+
+
+.box-content form input[type=password],
+.box-content form input[type=text]{
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    padding: 0 6px;
+}
+
+.box-content form input[type=submit]{
+    cursor: pointer;
+    margin-top: 12px;
+    width: 10%;
+    background-color: #ca2121;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+    font-size: 15px;
+    min-width: 70px;
+}
+
+.menu-active{
+   background-color:#ac2525; 
+}
+
+.menu-active::before{
+    content: ">> ";
+}
+
+.box-content form select{
+    display: block;
+    width: 100%;
+        height: 30px;
+        border-radius: 7px;
+        padding: 0 6px;
+        margin-bottom: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .box-metrica-single {
+        width: 100%;
+    }
+}
+
+@media screen  and (max-width:768px){
+
+    .menu{
+       width: 0;
+       padding: 0;
+    }
+
+    .content{
+        width: 100%;
+        left: 0;
+    }
+
+    header{
+        left: 0;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .w50 {
+        width: 100%;
+    }
+
+    .box-single-metrica {
+        width: 100%;
+        padding-top: 40%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .box-metrica-wraper h2 {
+        font-size: 24px;
+    }
+
+    .box-metrica-wraper p {
+        padding: 10px 0;
+        font-size: 22px;
+    }
+
+    .menu-wraper {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .items-menu a {
+        font-size: 15px;
+    }
+}
